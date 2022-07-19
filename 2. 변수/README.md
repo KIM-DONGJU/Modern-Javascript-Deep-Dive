@@ -41,7 +41,7 @@ var score
 `var score = 80;`을 하게 되면 변수를 선언함과 동시에 할당한다. 하지만 자바스크립트 엔진에서는 `2.4 변수 선언의 실행 시점과 변수 호이스팅`에서 언급한 것 처럼 런타임 이전에 var score가 선언되고, 런타임 시점에 score에 80이라는 값이 할당된다.
 
 ```
-console.log(score); // 80
+console.log(score); // undefined
 
 score = 80;
 var score;
