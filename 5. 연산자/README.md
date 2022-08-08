@@ -61,3 +61,17 @@ Object.is(NaN, NaN) // true
   const result2 = score > 100 ? 'pass' : 'fail' // 'fail'
 ```
 위와 같이 첫 번째 피연산자가 true로 평가되면 두 번째 피연산자를 반환하고, 첫 번째 피연산자가 false로 평가되면 세 번째 피연산자를 반환한다.
+
+
+### 5.5 논리 연산자
+논리 연산자는 우항과 좌항의 피연산자를 논리 연산한다.
+```
+|| : 논리합(OR) ==> 값 중 하나라도 true면 true를 반환. (true를 찾은 시점에서 그 뒤의 값은 체크하지 않음.)
+ex) true || false || true // true
+
+&& : 논리곱(AND) ==> 값 중 하나라도 false면 false를 반환. (false를 찾은 시점에서 그 뒤의 값을 체크하지 않음.)
+ex) true && false && true // false
+
+! : 부정(NOT) ==> true는 false로, false는 true로 반환.
+ex ) !true // false
+```
