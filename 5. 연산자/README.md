@@ -51,3 +51,13 @@ Object.is(-0, +0) // false
 NaN === NaN // false
 Object.is(NaN, NaN) // true
 ```
+
+
+### 5.4 삼항 조건 연산자
+삼항 조건 연산자는 조건의 평가식의 결과에 따라 반환할 값을 결정한다.
+```
+  const score = 80;
+  const result = score > 60 ? 'pass' : 'fail'; // 'pass'
+  const result2 = score > 100 ? 'pass' : 'fail' // 'fail'
+```
+위와 같이 첫 번째 피연산자가 true로 평가되면 두 번째 피연산자를 반환하고, 첫 번째 피연산자가 false로 평가되면 세 번째 피연산자를 반환한다.
