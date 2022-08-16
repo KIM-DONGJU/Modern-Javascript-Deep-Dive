@@ -84,3 +84,7 @@ ex ) !true // false
 
 10 * (2 + 3) // 50
 ```
+
+
+### 5.7 typeof 연산자
+typeof 연산자는 피연산자의 데이터 타입을 문자열로 반환한다. "string", "number", "boolean", "undefined", "symbol", "object", "function" 중 하나를 반환하며, "null"을 반환하는 경우는 없다.
